@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Donazione ETH con MetaMask</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    #donation-container { margin: 20px 0; }
+    input[type="text"] { width: 120px; margin-right: 10px; }
+    button { padding: 6px 12px; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+  <h2>Dona un importo in ETH v0.9</h2>
+  <div id="donation-container">
+    <input id="donation-amount" type="text" placeholder="0.01" />
+    <button id="donation-button">Dona</button>
+  </div>
+
+  <!-- LOG area o debug -->
+  <div id="log" style="white-space: pre; border: 1px solid #ccc; padding: 8px;"></div>
+  <script src="metamask.js" type="text/javascript"></script>
+</body>
+</html>
