@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "easy metamask payment",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "start": "npm run open",
+    "open": "concurrently \"http-server -S -C cert.pem -a localhost -p 1234\" \"open -a 'Google Chrome' https://localhost:1234/\""
+  },
+  "keywords": [
+    "I",
+    "dunno",
+    "man"
+  ],
+  "author": "Bretzz",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "web3": "^4.16.0"
+  }
+}
